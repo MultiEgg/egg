@@ -19,7 +19,7 @@
         "Dev": "ghcr.io\/multiegg\/image:dev"
     },
     "file_denylist": [],
-    "startup": "-Xms512M -Xmx{{SERVER_MEMORY}}",
+    "startup": "-Xms512M -Xmx{{SERVER_MEMORY}}M",
     "config": {
         "files": "{}",
         "startup": "{}",
